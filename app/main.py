@@ -27,7 +27,7 @@ while op==0:
         opVal = int(input('Presione 0 para salir, 1 para ingresar otra temperatura: \n'))
         val=1
         if opVal != 1 and opVal != 0:
-            print('Ha ingresado una opcion invalida, por favor seleccione una opcion recomendada: \n')
+            print('Ha ingresado una opcion invalida, por favor seleccione una opcion correcta: \n')
             val =0
         elif opVal == 0:
             op = 1
